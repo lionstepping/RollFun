@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RollFunActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+     >
+
+    <ImageView
+        android:id="@+id/imageViewAC"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ac01" 
+        android:background="@drawable/corners_bg"/>
+    
+    <Spinner android:id="@+id/spinner1"
+        android:prompt="@string/all"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/imageViewAC"
+        android:spinnerMode="dropdown" 
+        android:background="@color/black_overlay" 
+        />
+
+    <TextView
+        android:id="@+id/fanText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/edittext_bg"
+        android:gravity="center"
+        android:text="@string/nofan"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fanText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/rollbtn"
+        android:background="@color/black_overlay" 
+        />
+
+</RelativeLayout>

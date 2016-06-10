@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RollFun</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="rollbtn">Roll饭</string>
+    <string name="nofan_ass">还没有确定啊~魂淡！！w(ﾟДﾟ)w</string>
+	<string name="nofan">好无聊~好想埋在谁的欧派里~</string>
+	<string name="all">全部</string>
+	<string name="custom_rbm_text">新建种类并添加</string>
+	<string name="type_rbm_text">已有种类中添加</string>
+	<string name="add_btn">确定</string>
+	<string name="name_input">请输入名称</string>
+	<string name="type_input">请输入种类</string>
+</resources>
